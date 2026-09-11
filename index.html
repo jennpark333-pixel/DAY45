@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Jenn의 Website</title>
+
+  <!-- Pretendard 웹폰트 연결 -->
+  <link
+    rel="stylesheet"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+  >
+
+  <!-- Anton 웹폰트 연결 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- 직접 작성한 CSS 연결 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header 시작 -->
+  <header class="header">
+    <div class="header_inner">
+
+      <!-- 로고 -->
+      <a href="index.html" class="header_logo">
+        <img src="Images/logo.svg" alt="로고">
+      </a>
+
+      <!-- 오른쪽 메뉴 전체 -->
+      <div class="header_right">
+        <!-- 주요 메뉴 -->
+        <nav class="nav" aria-label="주요메뉴">
+          <ul class="nav_list">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <!-- 문의하기 버튼 -->
+        <a href="contact.html" class="btn_contact">문의하기</a>
+      </div>
+    </div>
+  </header>
+  <!-- Header 끝 -->
+
+  <!-- Main 시작 -->
+  <main>
+    <!-- Hero 시작 -->
+    <section class="hero">
+      <img class="hero_img" src="Images/hero.png" alt="키링 이미지">
+    </section>
+    <!-- Hero 끝 -->
+  </main>
+  <!-- Main 끝 -->
+
+  <!-- about 시작 -->
+  <section class="about">
+    <div class="about_text">
+      <p>이노컴즈는 비즈니스 성장을 돕는 <strong>IT 전문 기업</strong>으로</p>
+      <p>웹·앱·플랫폼 및 AI 기반 서비스 등 전 산업 분야에서 <strong>실질적 성과</strong>를 도출하며</p>
+      <p>기획부터 운영까지 고객사와 원팀으로 협력하여 <strong>지속 가능한 결과물</strong>을 만들어갑니다.</p>
+    </div>
+    <div class="about_stats">
+      <!-- Since -->
+      <div class="about_stat">
+        <span class="about_label">SINCE</span>
+        <h2 class="about_number">2001</h2>
+      </div>
+
+      <!-- 가운데 세로 구분선 -->
+      <div class="about_divider"></div>
+
+      <!-- Project -->
+      <div class="about_stat">
+        <span class="about_label">PROJECT</span>
+        <h2 class="about_number">1000+</h2>
+      </div>
+    </div>
+  </section>
+  <!-- about 끝 -->
+</body>
+
+</html>
